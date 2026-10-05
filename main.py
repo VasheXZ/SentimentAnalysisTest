@@ -213,8 +213,7 @@ class ExperimentFacade:
 
 if __name__ == "__main__":
 
-    # Для быстрой проверки используем Tiny.
-    # Чтобы проверить большую модель, заменить на BaseModelFactory().
+    # Для выбора модели необходимо присвоить BaseModelFactory() / TinyModelFactory()
     factory = BaseModelFactory()
 
     model = factory.create_model()
